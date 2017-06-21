@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burst SMS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8">
+                <form method="post" action="/sms">
+                    <div class="form-group">
+                        <label for="phone">Target Mobile Number</label>
+                        <input class="form-control" type="text" id="phone" name="phone" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" name="message" id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

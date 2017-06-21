@@ -1,0 +1,11 @@
+web:
+  image: node:8
+  volumes:
+    - ./:/code
+  working_dir: /code
+  ports:
+    - 8000:8000
+  env_file:
+    - env.ini
+  command: npm run dev
+  mem_limit: 256M

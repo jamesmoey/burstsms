@@ -1,0 +1,25 @@
+{
+  "name": "burstsms",
+  "version": "1.0.0",
+  "description": "Burst SMS Test",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon -w src/ src/index.js",
+    "test": "jasmine",
+    "start": "node src/index.js"
+  },
+  "author": "jamesmoey@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-better-serve": "^1.0.0",
+    "koa-body": "^2.1.0",
+    "koa-router": "^7.2.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "nodemon": "^1.11.0"
+  }
+}
