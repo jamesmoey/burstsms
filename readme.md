@@ -43,3 +43,12 @@ variable.
 ```
 burstsms_user= burstsms_password= bitly_token= npm start
 ```
+
+Future Todo
+===========
+
+- Message Queue to speed up the response to user. It will increase the
+reliability and accountability of the application.
+
+- When messaging become asynchronous real time feedback for user.
+Notifying them that message has been deliver.
