@@ -51,4 +51,4 @@ Future Todo
 reliability and accountability of the application.
 
 - When messaging become asynchronous real time feedback for user.
-Notifying them that message has been deliver.
+Notifying them that message has been sent.
